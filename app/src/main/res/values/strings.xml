@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jokes</string>
+    <string name="bottom_menu_joke">Jokes</string>
+    <string name="bottom_menu_api">Web</string>
+    <string name="reload">RELOAD</string>
+    <string name="count">Count</string>
+    <string name="tab_jokes">Jokes</string>
+    <string name="tab_api">Api info</string>
+</resources>
