@@ -14,7 +14,7 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import javax.inject.Inject
 
 class ViewModelFragmentJokes : ViewModel() {
-     var count = ObservableField<String>("0")
+    var count = ObservableField<String>("0")
     private val dispose = CompositeDisposable()
     val adaptRV = AdaptRV()
 
