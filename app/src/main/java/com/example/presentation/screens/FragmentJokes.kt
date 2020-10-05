@@ -29,6 +29,11 @@ class FragmentJokes : Fragment() {
         }
     }
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        retainInstance = true
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -52,11 +57,6 @@ class FragmentJokes : Fragment() {
                 DividerItemDecoration.VERTICAL
             )
         )
-    }
-
-    override fun onResume() {
-        super.onResume()
-        binding.editJokes.setText("")
     }
 
     override fun onDestroy() {
